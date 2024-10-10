@@ -125,7 +125,7 @@ def logout():
 def register():
     if request.method == "POST":
         return create_user()
-    return render_template('register.html')
+    return render_template('Register.html')
 
 
 @app.route('/dashboard/levels')
